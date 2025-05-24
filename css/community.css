@@ -76,6 +76,8 @@ nav ul li a {
 }
 
 .join-btn {
+  display: inline-block;
+  text-decoration: none;
   background-color: #e9e9e9;
   color: #333;
   border: none;
