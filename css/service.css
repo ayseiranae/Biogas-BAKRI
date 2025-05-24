@@ -61,31 +61,6 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-.form-container {
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  padding: 20px;
-}
-
-.form-container input,
-.form-container textarea {
-  background-color: rgb(48, 87, 34, 0.15);
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-}
-
-.form-container button {
-  background-color: #73b374;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
 .footer {
   margin-top: 5rem;
   background-color: #5b7f57;
