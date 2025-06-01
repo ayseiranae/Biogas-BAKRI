@@ -84,3 +84,45 @@ nav ul li a {
 .footer-column .icon {
   width: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+  }
+
+  header .logo img {
+    height: 20px;
+  }
+
+  nav ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .faq-box ul {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+
+  .contact-box {
+    font-size: 10px;
+    height: 50px;
+    padding: 10px 20px;
+  }
+
+  .footer {
+    font-size: 0.5rem;
+    padding: 5px 30px;
+  }
+  .footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  .footer-column .icon {
+    width: 20px;
+  }
+}

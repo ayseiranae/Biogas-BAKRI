@@ -42,6 +42,7 @@ nav ul li a {
   width: 100%;
   height: auto;
   padding: 0 20px;
+  margin-top: 50px;
 }
 
 .content {
@@ -147,4 +148,100 @@ nav ul li a {
 
 .footer-column .icon {
   width: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visi-misi .text {
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .visi-misi img {
+    order: -1;
+    width: 90%;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+  }
+
+  header .logo img {
+    height: 20px;
+  }
+
+  nav ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .main-content {
+    display: flex;
+  }
+
+  .content img {
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .text {
+    font-size: 8px;
+  }
+
+  .team-section h2 {
+    font-size: 15px;
+  }
+
+  .team-members {
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .team-member {
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .team-member p {
+    font-size: 10px;
+  }
+
+  .visi-misi {
+    gap: 10px;
+    padding: 0;
+  }
+
+  .visi-misi .text {
+    max-width: 250px;
+  }
+
+  .visi-misi img {
+    padding-top: 40px;
+    width: 150px;
+  }
+  .footer {
+    font-size: 0.5rem;
+    padding: 5px 30px;
+  }
+  .footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  .footer-column .icon {
+    width: 20px;
+  }
 }

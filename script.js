@@ -6,7 +6,10 @@ function explore() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   const editProfileBtn = document.querySelector(".edit-profile-btn");
   editProfileBtn.addEventListener("click", function () {
     alert("Edit profile functionality will be implemented here.");
